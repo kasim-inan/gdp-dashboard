@@ -26,7 +26,7 @@ def get_gdp_data():
     raw_gdp_df = pd.read_csv(DATA_FILENAME)
 
     MIN_YEAR = 1960
-    MAX_YEAR = 2022
+    MAX_YEAR = 2024
 
     # The data above has columns like:
     # - Country Name
@@ -36,7 +36,7 @@ def get_gdp_data():
     # - GDP for 1961
     # - GDP for 1962
     # - ...
-    # - GDP for 2022
+    # - GDP for 2024
     #
     # ...but I want this instead:
     # - Country Name
